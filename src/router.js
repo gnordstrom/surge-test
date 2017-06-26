@@ -11,9 +11,9 @@ import ThankYou from './components/ThankYou/ThankYou';
 export default (
     <Switch>
         <Route component={ Landing } exact path="/"/>
-        <Route component={ Shop } path="/chakras"/>
-        <Route component={ Cart } path="/charkras/blue"/>
-        <Route component={ ThankYou } path="/chakras/green"/>
-        <Route component={ Details } path="/chakras/:name"/>
+        <Route component={ Shop } path="/shop"/>
+        <Route component={ Details } path="/details/:name"/>
+        <Route component={ Cart } path="/cart"/>
+        <Route component={ ThankYou } path="/thank-you"/>
     </Switch>
 )
